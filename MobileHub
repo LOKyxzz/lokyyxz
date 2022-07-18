@@ -356,7 +356,7 @@ do
             task.wait()
         end
 
-        reEquippingPets = true
+        reEquippingPets = false
         local uids = unequipPets()
         task.wait()
         equipPets(uids)
